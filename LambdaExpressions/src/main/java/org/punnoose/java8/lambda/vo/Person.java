@@ -1,9 +1,10 @@
-package org.punnoose.java8.lambda;
+package org.punnoose.java8.lambda.vo;
 
 public class Person {
 	private String name;
 	private String sex;
 	private int age;
+	private String phone;
 	
 	public String getName() {
 		return name;
@@ -22,6 +23,12 @@ public class Person {
 	}
 	public void setAge(int age) {
 		this.age = age;
+	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
 	}
 	
 }
