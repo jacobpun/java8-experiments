@@ -1,20 +1,14 @@
-package org.punnoose.java8.lambda.service;
+package org.punnoose.java8.lambda.main;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.punnoose.java8.lambda.vo.Person;
+import org.punnoose.java8.lambda.domain.Person;
 
-public class FakePersonServiceImpl implements PersonService {
+public class TestDataFixture {
 
-	@Override
-	public Person getPerson(int personId) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 
-	@Override
-	public List<Person> getPeople() {
+	public List<Person> getFakePeople() {
 		List<Person> people = new ArrayList<>();
 
 		for (int i = 0; i < 100; i++) {
