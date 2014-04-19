@@ -1,9 +1,9 @@
-package org.punnoose.java8.lambda.main;
+package org.punnoose.java8lambda.demo1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import org.punnoose.java8.lambda.domain.Person;
+import org.punnoose.java8lambda.demo1.Person;
 
 public class TestDataFixture {
 

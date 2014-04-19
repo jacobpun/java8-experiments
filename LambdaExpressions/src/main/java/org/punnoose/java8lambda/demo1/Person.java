@@ -1,4 +1,4 @@
-package org.punnoose.java8.lambda.domain;
+package org.punnoose.java8lambda.demo1;
 
 public class Person {
 	private String name;

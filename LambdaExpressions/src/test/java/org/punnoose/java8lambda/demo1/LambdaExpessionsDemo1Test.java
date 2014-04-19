@@ -1,4 +1,4 @@
-package org.punnoose.java8.lambda.main;
+package org.punnoose.java8lambda.demo1;
 
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Matchers.anyString;
@@ -11,12 +11,13 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
-import org.punnoose.java8.lambda.service.PersonService;
-import org.punnoose.java8.lambda.service.RoboCallService;
-import org.punnoose.java8.lambda.service.TextingService;
+import org.punnoose.java8lambda.demo1.LambdaExpessionsDemo1;
+import org.punnoose.java8lambda.demo1.PersonService;
+import org.punnoose.java8lambda.demo1.RoboCallService;
+import org.punnoose.java8lambda.demo1.TextingService;
 
 @RunWith(MockitoJUnitRunner.class)
-public class LambdaExpessionsDemoTest {
+public class LambdaExpessionsDemo1Test {
 
 	@Mock
 	private RoboCallService roboCallService;
@@ -26,7 +27,7 @@ public class LambdaExpessionsDemoTest {
 	private PersonService personService;
 
 	@InjectMocks
-	LambdaExpessionsDemo main = new LambdaExpessionsDemo();
+	LambdaExpessionsDemo1 main = new LambdaExpessionsDemo1();
 
 	@Before
 	public void initialize() {
