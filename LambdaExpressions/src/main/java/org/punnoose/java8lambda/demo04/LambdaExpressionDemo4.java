@@ -1,24 +1,31 @@
-package org.punnoose.java8lambda.demo4;
+package org.punnoose.java8lambda.demo04;
 
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 /**
- * Method references example
+ * Static Method references example
  */
 public class LambdaExpressionDemo4 {
 
 	public static void main(String[] args) {
 		List<Person> people = new TestDataFixture().getFakePeople();
-		// Static Method Reference
-		List<Person> males = filter(PersonPredicates::isMale, people);
+		
+		//Lambda Style
+		System.out.println("Using Lambda");
+		List<Person> males = filter(p-> PersonPredicates.isMale(p), people);
+		print(males);
+		
+		// Static Method Reference Style
+		System.out.println("Using Method Reference");
+		males = filter(PersonPredicates::isMale, people);
 		print(males);
 	}
 
 	private static void print(List<Person> people) {
 		for (Person person : people) {
-			System.out.println(person.getName() + "-" + person.getSex());
+			System.out.printf("%s  - %s\r\n", person.getName(), person.getSex());
 		}
 	}
 

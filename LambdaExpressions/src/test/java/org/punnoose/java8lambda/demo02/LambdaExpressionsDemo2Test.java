@@ -1,9 +1,10 @@
-package org.punnoose.java8lambda.demo2;
+package org.punnoose.java8lambda.demo02;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 import org.junit.Test;
+import org.punnoose.java8lambda.demo02.LambdaExpressionsDemo2;
 
 public class LambdaExpressionsDemo2Test {
 

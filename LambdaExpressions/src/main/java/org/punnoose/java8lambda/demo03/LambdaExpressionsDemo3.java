@@ -1,4 +1,4 @@
-package org.punnoose.java8lambda.demo3;
+package org.punnoose.java8lambda.demo03;
 
 import java.util.Date;
 

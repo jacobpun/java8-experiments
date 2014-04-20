@@ -1,4 +1,4 @@
-package org.punnoose.java8lambda.demo2;
+package org.punnoose.java8lambda.demo02;
 
 import java.util.Arrays;
 import java.util.Comparator;

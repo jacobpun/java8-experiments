@@ -1,10 +1,11 @@
-package org.punnoose.java8lambda.demo4;
+package org.punnoose.java8lambda.demo04;
 
 public class Person {
 	private String name;
 	private String sex;
 	private int age;
 	private String phone;
+
 
 	public String getName() {
 		return name;
