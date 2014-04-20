@@ -1,4 +1,4 @@
-package org.punnoose.java8lambda.demo1;
+package org.punnoose.java8lambda.demo4;
 
 public class Person {
 	private String name;

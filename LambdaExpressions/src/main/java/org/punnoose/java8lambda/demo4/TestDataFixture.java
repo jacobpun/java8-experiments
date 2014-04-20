@@ -1,9 +1,7 @@
-package org.punnoose.java8lambda.demo1;
+package org.punnoose.java8lambda.demo4;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.punnoose.java8lambda.demo1.Person;
 
 public class TestDataFixture {
 

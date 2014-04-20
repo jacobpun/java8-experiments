@@ -1,8 +1,8 @@
-package org.punnoose.java8lambda.demo1;
+package org.punnoose.java8lambda.demo10;
 
 import java.util.List;
 
-public class LambdaExpessionsDemo1 {
+public class LambdaExpessionsDemo10 {
 
 	private RoboCallService roboCallService;
 	private TextingService textingService;

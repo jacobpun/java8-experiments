@@ -2,6 +2,9 @@ package org.punnoose.java8lambda.demo3;
 
 import java.util.Date;
 
+/**
+ * Lambdas and local variables
+ */
 public class LambdaExpressionsDemo3 {
 
 	@SuppressWarnings("unused")
@@ -9,15 +12,15 @@ public class LambdaExpressionsDemo3 {
 
 		Date localVariable = new Date();
 
-		// Lambdas can access local variables even if not explicitly declared as final.
+		// Lambdas can access local variables even if not explicitly declared as
+		// final.
 		MyInterface m1 = () -> {
 			return localVariable;
 		};
 
 		// However, lambdas cannot modify local variables
 		MyInterface m3 = () -> {
-			// localVariable = new Date(); //ERROR at this line since lambdas
-			// cannot modify local variables
+			// localVariable = new Date(); //ERROR here
 			return localVariable;
 		};
 	}
@@ -29,6 +32,5 @@ public class LambdaExpressionsDemo3 {
 @FunctionalInterface
 interface MyInterface {
 	Date myMethod();
-	// Date myMethod2(); //ERROR at this line since only one method is allowed
-	// within a functional interface
+	// Date illegalMethod(); //ERROR here
 }
