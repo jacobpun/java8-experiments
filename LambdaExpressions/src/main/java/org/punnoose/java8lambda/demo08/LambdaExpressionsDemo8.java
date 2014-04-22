@@ -17,7 +17,7 @@ public class LambdaExpressionsDemo8 {
 	public static void main(String[] args) {
 		List<Person> people = new TestDataFixture().getFakePeople();
 
-		// First person having age greater than 15
+		// First person having age > than 15
 		System.out.println(
 				findFirstMatch(
 					people, 
@@ -25,7 +25,7 @@ public class LambdaExpressionsDemo8 {
 				)
 		);
 
-		// First Female having age greater than 15
+		// First Female having age > than 15
 		System.out.println(
 				findFirstMatch(
 					people, 
