@@ -34,6 +34,7 @@ public class LambdaExpressionsDemo2 {
 		);
 		
 		return strings;
+		
 	}
 
 
