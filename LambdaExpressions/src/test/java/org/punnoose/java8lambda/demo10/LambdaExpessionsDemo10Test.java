@@ -11,10 +11,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
-import org.punnoose.java8lambda.demo10.LambdaExpessionsDemo10;
-import org.punnoose.java8lambda.demo10.PersonService;
-import org.punnoose.java8lambda.demo10.RoboCallService;
-import org.punnoose.java8lambda.demo10.TextingService;
+import org.punnoose.java8lambda.commonclasses.TestDataFixture;
 
 @RunWith(MockitoJUnitRunner.class)
 public class LambdaExpessionsDemo10Test {

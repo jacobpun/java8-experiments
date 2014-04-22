@@ -1,4 +1,4 @@
-package org.punnoose.java8lambda.demo04;
+package org.punnoose.java8lambda.commonclasses;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +16,14 @@ public class TestDataFixture {
 		return people;
 	}
 
+	public List<String> getFakePeopleNames() {
+		List<String> peopleNames = new ArrayList<>();
+
+		for (int i = 0; i < 100; i++) {
+			peopleNames.add(getFakeName(i));
+		}
+		return peopleNames;
+	}	
 
 	private Person createFakePerson(int i) {
 		Person p = new Person();

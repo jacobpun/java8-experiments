@@ -4,6 +4,9 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import org.punnoose.java8lambda.commonclasses.Person;
+import org.punnoose.java8lambda.commonclasses.TestDataFixture;
+
 /*
  * Implementing the "run" method of a Thread using Lambdas
  */

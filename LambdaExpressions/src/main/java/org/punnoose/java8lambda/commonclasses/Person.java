@@ -1,11 +1,19 @@
-package org.punnoose.java8lambda.demo04;
+package org.punnoose.java8lambda.commonclasses;
 
 public class Person {
+
 	private String name;
 	private String sex;
 	private int age;
 	private String phone;
 
+	public Person() {
+
+	}
+
+	public Person(String name) {
+		this.name = name;
+	}
 
 	public String getName() {
 		return name;
@@ -37,6 +45,14 @@ public class Person {
 
 	public void setPhone(String phone) {
 		this.phone = phone;
+	}
+
+	@Override
+	public String toString() {
+		return "Name: " + getName() + 
+				"; Age: " + getAge() + 
+				"; Sex: " + getSex() + 
+				"; Phone: " + getPhone();
 	}
 
 }

@@ -4,6 +4,9 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
+import org.punnoose.java8lambda.commonclasses.Person;
+import org.punnoose.java8lambda.commonclasses.TestDataFixture;
+
 /**
  * Static Method references example
  */

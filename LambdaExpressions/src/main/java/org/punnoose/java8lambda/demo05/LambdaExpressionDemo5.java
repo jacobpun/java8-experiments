@@ -3,6 +3,9 @@ package org.punnoose.java8lambda.demo05;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.punnoose.java8lambda.commonclasses.Person;
+import org.punnoose.java8lambda.commonclasses.TestDataFixture;
+
 /**
  * Constructor Method Reference Example
  * 
