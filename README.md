@@ -10,3 +10,4 @@ Exploring Java 8 Features
 * Demo05 - Constructor Method Reference Example
 * Demo06 - Instance Method Reference Example
 * Demo07 - Implementing the "run" method of a Thread using Lambdas
+* Demo08 - java.util.function.Predicate Example
