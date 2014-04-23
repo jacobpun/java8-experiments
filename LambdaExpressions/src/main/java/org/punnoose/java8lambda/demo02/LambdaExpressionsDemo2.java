@@ -25,7 +25,7 @@ public class LambdaExpressionsDemo2 {
 	}
 
 
-	//Lambda - Longer form (not making use of Type inferencing & Implied Return Types)
+	//Lambda - Verbose form (not making use of Type inferencing & Implied Return Types)
 	public String[] sortStringArrayByLength(String[] strings) {
 		
 		Arrays.sort(
