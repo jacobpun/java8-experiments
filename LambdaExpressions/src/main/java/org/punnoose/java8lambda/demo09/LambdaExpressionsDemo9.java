@@ -17,11 +17,11 @@ public class LambdaExpressionsDemo9 {
 
 		List<Person> people = new TestDataFixture().getFakePeople();
 
-		// Function - Lambda Style
+		// Function - Lambda Style.
 		List<String> peopleName = transform(people, p -> p.getName());
 		System.out.println(peopleName);
 
-		// Function - Method Reference Style
+		// Function - Method Reference Style.
 		peopleName = transform(people, Person::getName);
 		System.out.println(peopleName);
 
