@@ -11,3 +11,5 @@ Exploring Java 8 Features
 * Demo06 - Instance Method Reference Example
 * Demo07 - Implementing the "run" method of a Thread using Lambdas
 * Demo08 - java.util.function.Predicate Example
+* Demo09 - java.util.function.Function Example
+* Demo10 - java.util.function.BiFunction Example
