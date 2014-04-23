@@ -1,4 +1,4 @@
-package org.punnoose.java8lambda.demo10;
+package org.punnoose.java8lambda.demo50;
 
 import java.util.List;
 

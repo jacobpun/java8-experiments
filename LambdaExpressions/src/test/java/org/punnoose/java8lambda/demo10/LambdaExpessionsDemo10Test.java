@@ -12,6 +12,10 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.punnoose.java8lambda.commonclasses.TestDataFixture;
+import org.punnoose.java8lambda.demo50.LambdaExpessionsDemo50;
+import org.punnoose.java8lambda.demo50.PersonService;
+import org.punnoose.java8lambda.demo50.RoboCallService;
+import org.punnoose.java8lambda.demo50.TextingService;
 
 @RunWith(MockitoJUnitRunner.class)
 public class LambdaExpessionsDemo10Test {
@@ -24,7 +28,7 @@ public class LambdaExpessionsDemo10Test {
 	private PersonService personService;
 
 	@InjectMocks
-	LambdaExpessionsDemo10 main = new LambdaExpessionsDemo10();
+	LambdaExpessionsDemo50 main = new LambdaExpessionsDemo50();
 
 	@Before
 	public void initialize() {
