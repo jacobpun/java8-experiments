@@ -1,7 +1,8 @@
 java8-experiments
 =================
 
-Exploring Java 8 Features
+LamdaExpressions:
+~~~~~~~~~~~~~~~~~
 
 * Demo01 - A simple Hello World Example using Lambdas
 * Demo02 - Array Sorting example using Lambdas
