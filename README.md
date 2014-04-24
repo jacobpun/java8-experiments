@@ -14,3 +14,6 @@ LamdaExpressions:
 * Demo08 - java.util.function.Predicate Example
 * Demo09 - java.util.function.Function Example
 * Demo10 - java.util.function.BiFunction Example
+* Demo11 - java.util.function.Consumer Example
+* Demo12 - java.util.function.Supplier Example
+* Demo13 - java.util.function.BinaryOperator Example
