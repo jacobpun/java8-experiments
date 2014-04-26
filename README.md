@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 java8-experiments
 =================
 
