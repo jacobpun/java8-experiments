@@ -20,3 +20,4 @@ LamdaExpressions:
 * Demo14 - Variable Scoping Demo
 * Demo15 - Chaining Predicates
 * Demo16 - Chaining Functions
+* Demo17 - Chaining Consumers
