@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 java8-experiments
 =================
 
@@ -14,3 +15,9 @@ LamdaExpressions:
 * Demo08 - java.util.function.Predicate Example
 * Demo09 - java.util.function.Function Example
 * Demo10 - java.util.function.BiFunction Example
+=======
+spring-3.x-experiments
+======================
+
+* Spring-SimpleCacheManagerDemo : Caching using SimpleCacheManager / @cacheable annotation.
+>>>>>>> 366842e4842599a92fca48bdf0ceaabe5d9f145b
