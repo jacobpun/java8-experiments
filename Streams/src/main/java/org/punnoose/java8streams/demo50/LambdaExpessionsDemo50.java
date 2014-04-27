@@ -1,8 +1,8 @@
-package org.punnoose.java8lambda.demo50;
+package org.punnoose.java8streams.demo50;
 
 import java.util.List;
 
-import org.punnoose.java8lambda.commonclasses.Person;
+import org.punnoose.java8streams.commonclasses.Person;
 
 public class LambdaExpessionsDemo50 {
 
@@ -46,5 +46,4 @@ public class LambdaExpessionsDemo50 {
 	public void setTextingService(TextingService textingService) {
 		this.textingService = textingService;
 	}
-
 }

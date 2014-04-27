@@ -1,4 +1,4 @@
-package org.punnoose.java8lambda.demo50;
+package org.punnoose.java8streams.demo50;
 
 public interface TextingService {
 	public void sendTextMessage(String phoneNumber);
