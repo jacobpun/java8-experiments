@@ -28,5 +28,7 @@ Streams:
 * Demo02 - map demo
 * Demo03 - filter & findFirst demo
 * Demo04 - reduce demo
-* Demo05 - Collectors Demo
+* Demo05 - collectors Demo
 * Demo06 - limit & skip Demo
+* Demo07 - sort, min, max, distinct Demo
+* Demo08 - allMatch, anyMatch & count Demo
