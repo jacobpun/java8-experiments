@@ -1,4 +1,4 @@
-package org.punnoose.java8streams.demo1;
+package org.punnoose.java8streams.demo01;
 
 import java.util.stream.Stream;
 

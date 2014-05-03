@@ -1,4 +1,4 @@
-package org.punnoose.java8streams.demo3;
+package org.punnoose.java8streams.demo03;
 
 import java.util.List;
 

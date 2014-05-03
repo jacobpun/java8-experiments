@@ -1,4 +1,4 @@
-package org.punnoose.java8streams.demo4;
+package org.punnoose.java8streams.demo04;
 
 import java.util.Arrays;
 import java.util.List;
@@ -17,9 +17,9 @@ public class StreamsDemo4 {
 	public static void main(String[] args) {
 
 		// String concatenation
-		String[] strtings = { "a", "b", "c", "d" };
+		String[] strings = { "a", "b", "c", "d" };
 		System.out.printf("Concatenated String: %s \r\n",
-				Arrays.stream(strtings).reduce("", (s1, s2) -> s1.concat(s2)));
+				Arrays.stream(strings).reduce("", (s1, s2) -> s1.concat(s2)));
 
 		// Sum of integers
 		int[] ints = { 1, 2, 3, 4, 5 };
