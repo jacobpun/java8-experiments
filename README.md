@@ -3,7 +3,6 @@ java8-experiments
 
 LamdaExpressions:
 ~~~~~~~~~~~~~~~~~
-
 * Demo01 - A simple Hello World Example using Lambdas
 * Demo02 - Array Sorting example using Lambdas
 * Demo03 - Lambdas and local variables
@@ -24,8 +23,7 @@ LamdaExpressions:
 
 
 Streams:
-~~~~~~~
-
+~~~~~~~~
 * Demo01 - forEach demo
 * Demo02 - map demo
 * Demo03 - filter & findFirst demo
