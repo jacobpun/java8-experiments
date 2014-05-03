@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TestDataFixture {
-
+	
+	String[] states ={"NY", "NJ","PA","IL","CA","TX","MA"};
 
 	public List<Person> getFakePeople() {
 		List<Person> people = new ArrayList<>();
@@ -31,7 +32,12 @@ public class TestDataFixture {
 		p.setAge(getFakeAge(i));
 		p.setSex(getFakeGender(i));
 		p.setPhone(getFakePhone(i));
+		p.setState(getFakeState(i));
 		return p;
+	}
+
+	private String getFakeState(int i) {
+		return states[i%7];
 	}
 
 	private String getFakePhone(int i) {
@@ -49,5 +55,4 @@ public class TestDataFixture {
 	private String getFakeGender(int i){
 		return i%2 == 0? "M":"F";
 	}
-	
 }

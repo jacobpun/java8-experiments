@@ -6,7 +6,8 @@ public class Person {
 	private String sex;
 	private int age;
 	private String phone;
-
+	private String state;
+	
 	public Person() {
 
 	}
@@ -52,7 +53,16 @@ public class Person {
 		return "Name: " + getName() + 
 				"; Age: " + getAge() + 
 				"; Sex: " + getSex() + 
-				"; Phone: " + getPhone();
+				"; Phone: " + getPhone() +
+				"; State: " + getState();
+	}
+
+	public String getState() {
+		return state;
+	}
+
+	public void setState(String state) {
+		this.state = state;
 	}
 
 }
