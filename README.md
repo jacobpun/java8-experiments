@@ -21,3 +21,12 @@ LamdaExpressions:
 * Demo15 - Chaining Predicates
 * Demo16 - Chaining Functions
 * Demo17 - Chaining Consumers
+
+Streams
+~~~~~~~
+* Demo01 - forEach demo
+* Demo02 - map demo
+* Demo03 - filter & findFirst demo
+* Demo04 - reduce demo
+* Demo05 - Collectors Demo
+* Demo06 - limit & skip Demo
