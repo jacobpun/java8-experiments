@@ -1,6 +1,8 @@
 java8-experiments
 =================
 
+Trying out the new features in Java8
+
 LamdaExpressions:
 -----------------
 * Demo01 - A simple Hello World Example using Lambdas
