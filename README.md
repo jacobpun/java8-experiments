@@ -22,8 +22,10 @@ LamdaExpressions:
 * Demo16 - Chaining Functions
 * Demo17 - Chaining Consumers
 
-Streams
+
+Streams:
 ~~~~~~~
+
 * Demo01 - forEach demo
 * Demo02 - map demo
 * Demo03 - filter & findFirst demo
