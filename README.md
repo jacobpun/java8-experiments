@@ -34,3 +34,4 @@ Streams:
 * Demo06 - limit & skip Demo
 * Demo07 - sort, min, max, distinct Demo
 * Demo08 - allMatch, anyMatch & count Demo
+* Demo09 - Infinite stream demo
