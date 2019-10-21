@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Swap2ndChar",
+            "request": "launch",
+            "mainClass": "org.punnoose.java8lambda.Swap2ndChar",
+            "projectName": "LambdaExpressions"
+        }
+    ]
+}
